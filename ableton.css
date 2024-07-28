@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app-navbar{
+    height: 10vh;
+    width: 100%;
+}
+.app-navbar-list{
+    display: flex;
+    justify-content: space-between;
+    padding:0 1rem;
+    background-color: white;
+    height: 10vh;
+    align-items: center;
+}
+.ul-list{
+    display: flex;
+    list-style-type: none;
+}
+.ul-list .list{
+   margin-left: 2rem;
+   font-size: 1.5rem;
+   font-weight: bold;
+   color: black;
+}
+.login-reg{
+    display: flex;
+}
+.login-reg p a{
+   margin-left: 2rem;
+   font-size: 1.5rem;
+   font-weight: bold;
+   text-decoration: none;
+   color: black;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+}
+span{
+    color: blue;
+}
+.app-title{
+    display: flex;
+    padding: 5px;
+    margin-top: 10px;
+}
+.app-title h2{
+    margin-left: 20px;
+    font-size: 1.1rem;
+}
+.app-title a,
+.app-title:visited{
+    text-decoration: none;
+    color: red;
+}
+.ableton-img{
+    width: 1200px;
+    height: 70vh;
+}
+.app-img{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-ableton-img{
+    background-image:url(https://ableton-production.imgix.net/about/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    margin-top: 10px;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ableton-txt{
+    font-size: 7rem;
+    color :rgb(247, 34, 34);
+    font-weight: bold;
+}
+.app-about{
+    margin: 2rem;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-about-ableton{
+    height: 80vh;
+    width: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.para1{
+    font-size:2rem ;
+    color: black;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+.para2{
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.897);
+    letter-spacing: 2px;
+}
+.image-1{
+    height: 90vh;
+    width: 600px;
+    margin-top: 20px;
+}
+.image-2{
+    height: 50vh;
+    width: 450px;
+}
+.app-sample-img{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    height: 120vh;
+}
+.i-img2{
+    display: flex;
+    height: 100vh;
+    width: 700px;
+    background-color: rgba(255, 255, 0, 0.664);
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    padding-right: 80px;
+    z-index: 0; 
+}
+.i-img1{
+    position: absolute;
+    top: 0;
+    left: 90px;
+    z-index: 1;
+
+     
+}
+.app-about-video{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-about-music{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 600px;
+}
+.music-para1{
+    font-size:2rem ;
+    color: black;
+    letter-spacing: 2px;
+}
+.music-para2{
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.897);
+    letter-spacing: 2px;
+}
+.video{
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+.app-sample-img1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 170vh;
+    align-items: center;
+    position: relative;
+}
+.abl-1{
+    height: 50vh;
+    width: 450px;
+    transition: 0.3s;
+}
+.ab-2{
+    height: 89vh;
+    width: 600px;
+    transition: 0.3s;
+    z-index: 1;
+    position: absolute;
+    right: 80px;
+}
+.img-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:150vh;
+    background-color:rgba(0, 255, 255, 0.349);
+    width: 860px;
+    padding-left: 90px;
+    z-index: 0;
+    position: absolute;
+    left: 0;
+}
+.app-sample-img2{
+    padding-top: 500px;
+    background: url(https://ableton-production.imgix.net/about/poster-meet-the-makers.jpg);
+    height: 95vh;
+    width: 1100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-cont{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abl3{
+    width: 500px;
+    height: 55vh;
+    position: absolute;
+    left:  90px;
+}
+.abl4{
+    width: 450px;
+    height: 80vh; 
+    position: absolute;
+    right: 0;
+
+}
+.background-img{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.back-img{
+    background-color: rgba(128, 0, 128, 0.822);
+    width: 980px;
+    height: 110vh;
+    z-index: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.abl3,.abl4{
+    z-index: 1;
+}
+.ableton-jobs{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abl5{
+    width: 550px;
+    height:85vh ;
+}
+.join-us{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    line-height: 37px;
+    margin-bottom: 30px;
+}
+.ableton-jobs-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:1050px;
+    height:85vh ;
+    background-color: rgba(0, 255, 255, 0.589);
+}
+.join-cont{
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.see-job a{
+    font-size: 2rem;
+    text-decoration: none;
+}
+.app-footer{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-about-footer{
+    display: grid;
+    width: 100%;
+    height: 50vh;
+    grid-template-columns: 2fr 2fr 2fr;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+.app-email{
+    width: 350px;
+}
+.app-logo h1{
+   margin-bottom: 40px;
+   font-size: 3rem;
+}
+.paragraph{
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+.email{
+    margin-top: 10px;
+}
+.app-community-lang{
+    display: flex;
+    width: 900px;
+    height: 15vh;
+    justify-content: space-around;
+    align-items: center;
+}
+label{
+    position: absolute;
+    left: -9999px;
+}
+.email input{
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 5px;
+}
+.sign-in{
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: blue;
+    color: white;
+}
+.app-others{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style-type:none ;
+    width: 700px;
+    margin-left: 50px;
+}
+ul  li{
+    margin-left: 3%;
+}
+.berlin{
+    margin-right: 20px;
+}
+@media screen and (max-width:420px){
+    .login-reg{
+        display: none;
+    }
+    .app-about{
+        display: flex;
+        justify-content: flex-start;
+        width: 200px;
+    }
+    .para1,.para2{
+        font-size: 1rem;
+    }
+    .app-ableton-img,.app-ableton-img1,.background-img{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100px;
+    }
+}
